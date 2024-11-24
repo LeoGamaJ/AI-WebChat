@@ -1,0 +1,168 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease, filter 0.3s ease; 
+    color: #333;
+}
+
+
+/* Estilos para o navbar */
+.navbar {
+    background-color: #fff; 
+    color: #333; 
+}
+
+
+/* Estilos para os botões do navbar */
+.navbar .btn-outline-secondary {
+    color: #333; 
+    border-color: #333;
+}
+
+
+/* Estilos para os botões do navbar (hover) */
+.navbar .btn-outline-secondary:hover {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+    color: #333;
+}
+
+
+/* Estilos para o card */
+.card {
+    background-color: #fff; 
+    color: #333; 
+}
+
+/* Estilos para o header do card */
+.card-header {
+    background-color: #d9dfe9;
+    color: #c0a2a2; 
+}
+
+/* Estilos para o botão no header do card */
+.card-header .btn-light {
+    color: #333;
+    background-color: #f8f9fa; 
+    border-color: #f8f9fa;
+}
+
+/* Estilos para o container do chat */
+#chat-container {
+    height: 600px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    color: #333; 
+}
+
+/* Estilos para as mensagens do usuário */
+.user-message {
+    background-color: #e9f0f8; 
+    color: #333; 
+    align-self: flex-end;
+    border-radius: 8px 8px 0 8px;
+}
+
+/* Estilos para as mensagens do assistente */
+.assistant-message {
+    background-color: #fff; 
+    color: #333; 
+    align-self: flex-start;
+    border-radius: 8px 8px 8px 0;
+}
+
+
+/* Estilos para o footer do card */
+.card-footer {
+    background-color: #f8f9fa; 
+    color: #333;
+}
+
+
+/* Estilos para o campo de texto */
+.form-control {
+    border-radius: 8px !important;
+    background-color: #fff; 
+    color: #333; 
+}
+
+
+/* Estilos para o botão de enviar */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: #fff; 
+}
+
+/* Estilos para o botão de exportar */
+.btn-outline-success {
+    color: #198754;
+    border-color: #198754;
+}
+
+
+.message {
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+    max-width: 80%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+pre {
+    background-color: #212529; 
+    color: #adb5bd; 
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    position: relative;
+}
+
+code {
+    background-color: #212529; 
+    color: #adb5bd;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.copy-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #343a40; 
+    color: #adb5bd;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #fff;
+    color: #333; 
+}
+
+
+.form-control:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
