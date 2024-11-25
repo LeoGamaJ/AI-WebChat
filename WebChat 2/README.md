@@ -47,32 +47,6 @@ DevChat is a modern, AI-powered code assistant that helps developers with coding
 - Claude (o1-preview)
 - Claude Mini (o1-mini)
 
-## 🏗️ Project Structure
-
-\`\`\`
-project/
-├── src/
-│   ├── components/
-│   │   ├── CodeBlock.tsx      # Code syntax highlighting
-│   │   ├── Footer.tsx         # Application footer
-│   │   ├── MessageList.tsx    # Chat messages display
-│   │   └── SettingsPanel.tsx  # Settings configuration
-│   ├── utils/
-│   │   └── exportUtils.ts     # Export functionality
-│   ├── App.tsx                # Main application component
-│   ├── index.css             # Global styles
-│   ├── main.tsx              # Application entry point
-│   └── types.ts              # TypeScript definitions
-├── server/
-│   └── index.ts              # Express server & API endpoints
-├── public/                   # Static assets
-├── .gitignore
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-\`\`\`
-
 ## 🚀 Getting Started
 
 1. **Clone the repository**
