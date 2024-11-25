@@ -9,7 +9,7 @@
 DevChat is a modern, AI-powered code assistant that helps developers with coding tasks, debugging, and technical discussions. Built with React and TypeScript, it provides a sleek, user-friendly interface for interacting with various Large Language Models.
 
 
-[WebChat screem](./assets/screem_wc.png)
+![WebChat screem](./assets/screem.png)
 
 
 ## 🚀 Features
@@ -105,7 +105,7 @@ DevChat is a modern, AI-powered code assistant that helps developers with coding
    - Choose your preferred format (JSON, MD, TXT, PDF)
    - Files are automatically downloaded
   
-[WebChat save](./assets/screem_save.png)
+![WebChat save](./assets/screem_save.png)
 
 ## ⚙️ Configuration Options
 
@@ -115,7 +115,7 @@ DevChat is a modern, AI-powered code assistant that helps developers with coding
 - **Max Tokens:** Control response length
 - **Language:** Set preferred response language
 
-  [WebChat settings](./assets/screem_settings.png)
+  ![WebChat settings](./assets/screem_settings.png)
 
 
 ## 🔒 Security
